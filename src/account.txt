@@ -1,0 +1,3 @@
+id,accountNumber,password,balance
+parkjj0224,20000224,0424,2000001
+bhc0201,00029499,0201,1000
