@@ -19,3 +19,11 @@ CWE-659는 "Insufficiently Protected Credentials"의 약자로 나열된 단어 
 
 프로그램의 내용은 사용자 정보와 이를 활용하여 은행 계좌와 관련된 서비스를 제공하는 프로젝트이다.
 데이터는 파일 시스템으로 다룬다.
+
+main.cpp : 프로그램 메인 실행 파일
+account.h : 계좌 정보 관련 기능 파일
+account.txt : 계좌 정보 텍스트 파일
+user.h : 사용자 정보 관련 기능 파일
+user.txt : 사용자 정보 텍스트 파일
+extra.c : CWE-659 규칙 위반을 위한 더미 C 파일
+usingC.h : 위의 C 파일을 C++ 파일과 함께 컴파일 시키기 위한 헤더 파일
